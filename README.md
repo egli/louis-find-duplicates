@@ -18,12 +18,3 @@ Copyright (C) 2012 Christian Egli
 Distributed under the GNU General Public License as published by the
 Free Software Foundation, either version 3 of the License, or (at your
 option) any later version.
-
-
-
-
-# Usage
-
-From your docs directory, run the jar like so:
-
-    $ java -jar rippledoc-0.1.0-standalone.jar
