@@ -4,7 +4,7 @@ Utility to find duplicate always definitions in liblouis tables
 
 ## Usage
 
-java -jar louis-find-duplicates-1.0.0-standalone.jar /path/to/tables/*.ctb
+   java -jar louis-find-duplicates-1.0.0-standalone.jar /path/to/tables/*.ctb
 
 ## License
 
