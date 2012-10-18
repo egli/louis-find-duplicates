@@ -5,7 +5,7 @@ Utility to find duplicate always definitions in liblouis tables
 ## Installation
 
 Clone the repo and run `lein uberjar` to create a standalone jar. Then
-put that jar anywhere (perhaps into your ~/bin dir).
+put that jar anywhere (perhaps into your `~/bin` dir).
 
 ## Usage
 
