@@ -2,7 +2,7 @@
   (:gen-class :main true))
 
 (defn get-always-opcodes [table]
-  (map next (re-seq #"always (\p{L}+) ([0-9-]+)" (slurp table))))
+  (map next (re-seq #"(?m)^always (\p{L}+) ([0-9-]+)" (slurp table))))
 
 (defn duplicates [table]
   (for [[_ opcodes] (group-by first (get-always-opcodes table))
