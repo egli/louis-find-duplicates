@@ -15,8 +15,7 @@
 
 (defn -main [& args]
   (doseq [table args
-          dups (duplicates table)]
-    (let [[word braille] dups]
-      (when (multiple? braille)
-        (print "Conflicting Duplicate: "))
-      (println (str table ": " word ", " (apply str (interpose \, braille)))))))
+          [word braille] (duplicates table)]
+    (when (multiple? braille)
+      (print "Conflicting Duplicate: "))
+    (println (str table ": " word ", " (apply str (interpose \, braille))))))
